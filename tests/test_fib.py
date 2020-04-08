@@ -2,7 +2,7 @@ import unittest
 from typing import List
 from itertools import islice
 
-from m1 import fibbonacci, fibbonacci_sequence
+from fib import fibbonacci, fibbonacci_sequence
 
 
 class TestFibbonacci(unittest.TestCase):
