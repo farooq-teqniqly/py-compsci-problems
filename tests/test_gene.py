@@ -27,3 +27,7 @@ class TestGene(unittest.TestCase):
         # Arrange, Act, Assert
         with self.assertRaises(ValueError):
             result: int = compress("TAGGXTT")
+
+
+if __name__ == "__main__":
+    unittest.main()
